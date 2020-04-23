@@ -1,0 +1,6 @@
+framework module GGXMaskView {
+  umbrella header "GGXMaskView-umbrella.h"
+
+  export *
+  module * { export * }
+}

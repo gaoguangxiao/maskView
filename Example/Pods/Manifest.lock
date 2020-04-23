@@ -1,0 +1,16 @@
+PODS:
+  - GGXMaskView (0.1.0)
+
+DEPENDENCIES:
+  - GGXMaskView (from `../`)
+
+EXTERNAL SOURCES:
+  GGXMaskView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GGXMaskView: 0125a2ee23ec2a5beb7134bbac5d4eaa8047cd49
+
+PODFILE CHECKSUM: 4154f9e82b4a68f6b9faac7d402f7353c2e34052
+
+COCOAPODS: 1.9.1
