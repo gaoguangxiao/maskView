@@ -1,16 +1,16 @@
 PODS:
-  - GGXMaskView (0.1.0)
+  - QinzTool (0.1.0)
 
 DEPENDENCIES:
-  - GGXMaskView (from `../`)
+  - QinzTool (from `../`)
 
 EXTERNAL SOURCES:
-  GGXMaskView:
+  QinzTool:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GGXMaskView: 0125a2ee23ec2a5beb7134bbac5d4eaa8047cd49
+  QinzTool: cfb838d93aab6265ac4d2f7aca84967115ca3073
 
-PODFILE CHECKSUM: 4154f9e82b4a68f6b9faac7d402f7353c2e34052
+PODFILE CHECKSUM: 465c5842d260c8a4ba0ed13f38cafb84945bd72b
 
 COCOAPODS: 1.9.1

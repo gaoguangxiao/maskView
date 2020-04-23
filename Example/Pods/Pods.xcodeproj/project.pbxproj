@@ -7,146 +7,181 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C25E03C9DAE7552AB8441A44E2872C6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3B9D88940E8452FB348A4231FB5FB2A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3D97FF80D1DFF4159CCBB388FCB24BD9 /* Pods-GGXMaskView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B318D6068733690498551567EDCB844 /* Pods-GGXMaskView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4520C085218159A8B56A7368C316C27A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		49482DCF98C304AEF3663A28E030304D /* Pods-GGXMaskView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8496436E6DEAE3DDE5E26EEEF7AEBDF /* Pods-GGXMaskView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F46265A766759912CB4B51724BF6AE7 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BE2A46EDE4BB4331F1692A0FE2EBA1 /* ReplaceMe.m */; };
-		788711F6DC3E1ABFDC4611779C1AA86C /* Pods-GGXMaskView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1BF82A3075C1BB6E1FF2AABC188648 /* Pods-GGXMaskView_Example-dummy.m */; };
-		9C75B747F9972920211B2C31DF287DEF /* GGXMaskView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA1B5B8C3857E0F91C30671E2AC7D10 /* GGXMaskView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA8FB2A5E6FFBC0F4089D2DFCCBC8034 /* GGXMaskView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F93FAC3F7AE2F296ED5892C0F2B135EB /* GGXMaskView-dummy.m */; };
-		E67CE7DFA03F81045B442FC2AC37DF83 /* Pods-GGXMaskView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7226DD9A79C7483633462AC85EC5FC1 /* Pods-GGXMaskView_Tests-dummy.m */; };
-		FFA7E74C24519E1C00C32292 /* RRCMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA7E74A24519E1C00C32292 /* RRCMaskView.m */; };
-		FFA7E74D24519E1C00C32292 /* RRCMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA7E74B24519E1C00C32292 /* RRCMaskView.h */; };
+		07D887EB1D273FEC3369BDB04DE14B59 /* Pods-QinzTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A9E20F9B47335D923C8CB2D7E77CE17 /* QinzTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF32FBE73C119514FA744AD0432B94A6 /* QinzTool-dummy.m */; };
+		380747033D6B407E7EDD3B4F55198372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4B91EB7BB7E4D1806285F444DC2D0083 /* Pods-QinzTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92BBAC7820CA0ECD2EBBDA901E90EF75 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		9ACC3B3FCC93CF046C812C5E0DC94AE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A4238E4872154B8C8D5715E4EF887FA7 /* Pods-QinzTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */; };
+		AEA7D761C6702A5809B8974F8BD598B4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B302D04F2A2B3055AB1846B6E416FDF /* ReplaceMe.m */; };
+		D3C66337A40D66C57A98681414484512 /* QinzTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 376523DA90A7D2D10E2E302D6F130A29 /* QinzTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E040ED9C44D0F1AD6841C888B43E749C /* Pods-QinzTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */; };
+		FFA7E7502451A87600C32292 /* RRCMaskView.h in Headers */ = {isa = PBXBuildFile; fileRef = FFA7E74E2451A87600C32292 /* RRCMaskView.h */; };
+		FFA7E7512451A87600C32292 /* RRCMaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFA7E74F2451A87600C32292 /* RRCMaskView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0095DA823737D06FEF4447565E616BFA /* PBXContainerItemProxy */ = {
+		095B300FC06B4C1FD5BBC686E95CD48F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC7E80A6DC2430E28C55B6FE008EB73F;
-			remoteInfo = "Pods-GGXMaskView_Example";
+			remoteGlobalIDString = F51E166E7E8F5725F95AC46676D230A3;
+			remoteInfo = "Pods-QinzTool_Example";
 		};
-		A4471DFF8A80F83020230828D1000AED /* PBXContainerItemProxy */ = {
+		99DD9D9DFD81C45837396A91B4B4FF9C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 762A94AEA5F026E0BE71C96D7AEB6049;
-			remoteInfo = GGXMaskView;
+			remoteGlobalIDString = B8580FC9149802D8AD992DD4A79DBDF0;
+			remoteInfo = QinzTool;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0603804C20F52D2A1D53D61B667CAF93 /* Pods-GGXMaskView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGXMaskView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0C0BC32D0F844511BACD36A977317944 /* Pods-GGXMaskView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGXMaskView_Example.modulemap"; sourceTree = "<group>"; };
-		13A01061B7E47D82626727E0F64D6ED1 /* Pods_GGXMaskView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGXMaskView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1B66F562B14075F2A3199E65FB2AFC08 /* Pods-GGXMaskView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXMaskView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		276E608CBB8C09C2C0E8D40A66F594AE /* Pods-GGXMaskView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXMaskView_Example-Info.plist"; sourceTree = "<group>"; };
-		2C9CAE1ECC2DF0537491026DC0892AC6 /* GGXMaskView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GGXMaskView-Info.plist"; sourceTree = "<group>"; };
+		0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		1A12A204A849AB0E7A610A3C9BE8A8F7 /* Pods-QinzTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Tests.modulemap"; sourceTree = "<group>"; };
+		24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2880515F5CBC5C69997A9FD47DC87707 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B1BF82A3075C1BB6E1FF2AABC188648 /* Pods-GGXMaskView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGXMaskView_Example-dummy.m"; sourceTree = "<group>"; };
-		41812BBE5935F4DD84E64831077F6423 /* Pods_GGXMaskView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGXMaskView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		445167D63F864BFC22E572740C606E0F /* Pods-GGXMaskView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGXMaskView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4EBF95C7D4E1DBAF568E4AC99A03045B /* Pods-GGXMaskView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXMaskView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		530BB7247E5235DA3C97EC0E090DC20F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6B318D6068733690498551567EDCB844 /* Pods-GGXMaskView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGXMaskView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		7FD64E369B95BB89FD9A6BFD9AC48C5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		809339847EDBB4AB8DE680E0A898DAEB /* GGXMaskView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGXMaskView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B1BB51D5B55087552650D74F0666E99 /* GGXMaskView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGXMaskView.debug.xcconfig; sourceTree = "<group>"; };
-		948FB396F4426A6AC61DCDD5F8480790 /* Pods-GGXMaskView_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXMaskView_Tests-Info.plist"; sourceTree = "<group>"; };
+		376523DA90A7D2D10E2E302D6F130A29 /* QinzTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-umbrella.h"; sourceTree = "<group>"; };
+		3A6512FB77619B20996E4CA628742DC6 /* QinzTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = QinzTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4251034C9AC87365C85E9D8E0D9FFBBC /* QinzTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QinzTool-Info.plist"; sourceTree = "<group>"; };
+		528FBE9B9264019AE3EF96E47D10A13B /* QinzTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QinzTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FD0BA05EA48A0BCB806288B5B32BBF /* QinzTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QinzTool.release.xcconfig; sourceTree = "<group>"; };
+		5B302D04F2A2B3055AB1846B6E416FDF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QinzTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		6B503A1706E53BCA70F203615B8226EF /* QinzTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QinzTool.debug.xcconfig; sourceTree = "<group>"; };
+		70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Example-dummy.m"; sourceTree = "<group>"; };
+		739DA9564A978E26B3FFC35F67DBD6B2 /* QinzTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-prefix.pch"; sourceTree = "<group>"; };
+		76A67558F4E60141D919106337F97169 /* Pods-QinzTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		9BF6A9AD00A30698A71D9FCD87AF06BD /* QinzTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QinzTool.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9DA0EF822505D3937FBA3B7A07826B4E /* GGXMaskView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGXMaskView-prefix.pch"; sourceTree = "<group>"; };
-		A36E96E9DB587495ACEBC37B5AB5C58D /* GGXMaskView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGXMaskView.release.xcconfig; sourceTree = "<group>"; };
-		A539FDD6FCEB1378AE152659DE6B3F37 /* GGXMaskView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGXMaskView.modulemap; sourceTree = "<group>"; };
-		B64132283982DEA68A9A380FE70F6B19 /* GGXMaskView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = GGXMaskView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C7226DD9A79C7483633462AC85EC5FC1 /* Pods-GGXMaskView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGXMaskView_Tests-dummy.m"; sourceTree = "<group>"; };
-		C8496436E6DEAE3DDE5E26EEEF7AEBDF /* Pods-GGXMaskView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGXMaskView_Example-umbrella.h"; sourceTree = "<group>"; };
-		CF8D1577167955CC630EA636B9A93AE6 /* Pods-GGXMaskView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXMaskView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		CFA1B5B8C3857E0F91C30671E2AC7D10 /* GGXMaskView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGXMaskView-umbrella.h"; sourceTree = "<group>"; };
-		D1BE2A46EDE4BB4331F1692A0FE2EBA1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGXMaskView/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		DA59FA8DEB0938FE81857380D5F3A6C1 /* Pods-GGXMaskView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXMaskView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E28AC23FDD47401E4CD230CF3AF14E5C /* Pods-GGXMaskView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGXMaskView_Tests.modulemap"; sourceTree = "<group>"; };
-		E75C5CDE7F2ACECE3DB0CFA11B6886CE /* Pods-GGXMaskView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGXMaskView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F803AD88AB44165017F99B44FBC46D92 /* Pods-GGXMaskView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGXMaskView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F8CA2B0066A9E64EB277D45D87AEFF92 /* Pods-GGXMaskView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGXMaskView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		F93FAC3F7AE2F296ED5892C0F2B135EB /* GGXMaskView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGXMaskView-dummy.m"; sourceTree = "<group>"; };
-		FFA7E74A24519E1C00C32292 /* RRCMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRCMaskView.m; path = GGXMaskView/Classes/RRCMaskView.m; sourceTree = "<group>"; };
-		FFA7E74B24519E1C00C32292 /* RRCMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRCMaskView.h; path = GGXMaskView/Classes/RRCMaskView.h; sourceTree = "<group>"; };
+		A3244542363994B3D0E78B8B77A799AA /* Pods-QinzTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-Info.plist"; sourceTree = "<group>"; };
+		A3676678F1051D9A3E2013349684CC5D /* Pods-QinzTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		A5035F281B41C4EA98E8AE118FC3E649 /* Pods-QinzTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Example.modulemap"; sourceTree = "<group>"; };
+		AF32FBE73C119514FA744AD0432B94A6 /* QinzTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QinzTool-dummy.m"; sourceTree = "<group>"; };
+		B926953F018353991723DF85616D4D48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CAF471A07C5144806878178252DD819A /* Pods-QinzTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE1F5EBCA6353639F962325D37B73BCA /* Pods-QinzTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D14EB5BFF24B3A565DA1391A34DCC10B /* Pods_QinzTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E09AD755ACC0BF439D75AB9CFE0DD864 /* Pods-QinzTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5E34EF7AED9122D1856B6381538C67C /* Pods-QinzTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EBF92A934CD190C78866B28B20FFD4BB /* Pods_QinzTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA7E74E2451A87600C32292 /* RRCMaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RRCMaskView.h; path = QinzTool/Classes/RRCMaskView.h; sourceTree = "<group>"; };
+		FFA7E74F2451A87600C32292 /* RRCMaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RRCMaskView.m; path = QinzTool/Classes/RRCMaskView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		25F644B32D4701B7B22F521FD3EC16EB /* Frameworks */ = {
+		1E7ABABEC38452FC13D444244B3686F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4520C085218159A8B56A7368C316C27A /* Foundation.framework in Frameworks */,
+				92BBAC7820CA0ECD2EBBDA901E90EF75 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B213FDBCD723203C06520EED8AE6D2C /* Frameworks */ = {
+		2FD1E4D70C79F26F37D7CC263F0E4D64 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C25E03C9DAE7552AB8441A44E2872C6 /* Foundation.framework in Frameworks */,
+				380747033D6B407E7EDD3B4F55198372 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B621C3DB2FBD6E73A0F6CAAF78DECFD6 /* Frameworks */ = {
+		4EF65A906C22DE445E2837065E773ACD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B9D88940E8452FB348A4231FB5FB2A9 /* Foundation.framework in Frameworks */,
+				9ACC3B3FCC93CF046C812C5E0DC94AE9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		42E977DBF913F05543CD71B14FDAC0F6 /* Targets Support Files */ = {
+		134800FC56F5CC026912ED7B36958CA2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4D801B0F278C28574F87BA37E8CF64D0 /* Pods-GGXMaskView_Example */,
-				F24E59691E1FD04056643456AF88BD95 /* Pods-GGXMaskView_Tests */,
+				9BF6A9AD00A30698A71D9FCD87AF06BD /* QinzTool.modulemap */,
+				AF32FBE73C119514FA744AD0432B94A6 /* QinzTool-dummy.m */,
+				4251034C9AC87365C85E9D8E0D9FFBBC /* QinzTool-Info.plist */,
+				739DA9564A978E26B3FFC35F67DBD6B2 /* QinzTool-prefix.pch */,
+				376523DA90A7D2D10E2E302D6F130A29 /* QinzTool-umbrella.h */,
+				6B503A1706E53BCA70F203615B8226EF /* QinzTool.debug.xcconfig */,
+				58FD0BA05EA48A0BCB806288B5B32BBF /* QinzTool.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QinzTool";
+			sourceTree = "<group>";
+		};
+		177E5235A01885AACBD0156E4FCDB085 /* QinzTool */ = {
+			isa = PBXGroup;
+			children = (
+				FFA7E74E2451A87600C32292 /* RRCMaskView.h */,
+				FFA7E74F2451A87600C32292 /* RRCMaskView.m */,
+				5B302D04F2A2B3055AB1846B6E416FDF /* ReplaceMe.m */,
+				4CB3EFE4EA3423891FFC7DD2C0F5B94D /* Pod */,
+				134800FC56F5CC026912ED7B36958CA2 /* Support Files */,
+			);
+			name = QinzTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3721A6AAEC3BAFACC8B0A6013F1CBD56 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B676516343EA9423EF9B1EDB6B5EE29 /* Pods-QinzTool_Example */,
+				E6CF9AC62E6333B49812DC2D58E79A83 /* Pods-QinzTool_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4D801B0F278C28574F87BA37E8CF64D0 /* Pods-GGXMaskView_Example */ = {
+		3982F814B5CA285A3C6E5196EC1DCD11 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0C0BC32D0F844511BACD36A977317944 /* Pods-GGXMaskView_Example.modulemap */,
-				445167D63F864BFC22E572740C606E0F /* Pods-GGXMaskView_Example-acknowledgements.markdown */,
-				4EBF95C7D4E1DBAF568E4AC99A03045B /* Pods-GGXMaskView_Example-acknowledgements.plist */,
-				3B1BF82A3075C1BB6E1FF2AABC188648 /* Pods-GGXMaskView_Example-dummy.m */,
-				F803AD88AB44165017F99B44FBC46D92 /* Pods-GGXMaskView_Example-frameworks.sh */,
-				276E608CBB8C09C2C0E8D40A66F594AE /* Pods-GGXMaskView_Example-Info.plist */,
-				C8496436E6DEAE3DDE5E26EEEF7AEBDF /* Pods-GGXMaskView_Example-umbrella.h */,
-				1B66F562B14075F2A3199E65FB2AFC08 /* Pods-GGXMaskView_Example.debug.xcconfig */,
-				E75C5CDE7F2ACECE3DB0CFA11B6886CE /* Pods-GGXMaskView_Example.release.xcconfig */,
+				D14EB5BFF24B3A565DA1391A34DCC10B /* Pods_QinzTool_Example.framework */,
+				EBF92A934CD190C78866B28B20FFD4BB /* Pods_QinzTool_Tests.framework */,
+				528FBE9B9264019AE3EF96E47D10A13B /* QinzTool.framework */,
 			);
-			name = "Pods-GGXMaskView_Example";
-			path = "Target Support Files/Pods-GGXMaskView_Example";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		A40C2C3126A0454C5A4BF3AD74274EAF /* GGXMaskView */ = {
+		3B676516343EA9423EF9B1EDB6B5EE29 /* Pods-QinzTool_Example */ = {
 			isa = PBXGroup;
 			children = (
-				FFA7E74B24519E1C00C32292 /* RRCMaskView.h */,
-				FFA7E74A24519E1C00C32292 /* RRCMaskView.m */,
-				D1BE2A46EDE4BB4331F1692A0FE2EBA1 /* ReplaceMe.m */,
-				DD45351078617BB11DAFE4639A6380E8 /* Pod */,
-				C68B7887141CCE92579CC2945A4DF223 /* Support Files */,
+				A5035F281B41C4EA98E8AE118FC3E649 /* Pods-QinzTool_Example.modulemap */,
+				76A67558F4E60141D919106337F97169 /* Pods-QinzTool_Example-acknowledgements.markdown */,
+				CAF471A07C5144806878178252DD819A /* Pods-QinzTool_Example-acknowledgements.plist */,
+				71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */,
+				CE1F5EBCA6353639F962325D37B73BCA /* Pods-QinzTool_Example-frameworks.sh */,
+				A3244542363994B3D0E78B8B77A799AA /* Pods-QinzTool_Example-Info.plist */,
+				0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */,
+				4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */,
+				C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */,
 			);
-			name = GGXMaskView;
-			path = ../..;
+			name = "Pods-QinzTool_Example";
+			path = "Target Support Files/Pods-QinzTool_Example";
 			sourceTree = "<group>";
 		};
-		AE7248BA4A7A4CFB06CD940F5CDEF973 /* Development Pods */ = {
+		4CB3EFE4EA3423891FFC7DD2C0F5B94D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A40C2C3126A0454C5A4BF3AD74274EAF /* GGXMaskView */,
+				2880515F5CBC5C69997A9FD47DC87707 /* LICENSE */,
+				3A6512FB77619B20996E4CA628742DC6 /* QinzTool.podspec */,
+				B926953F018353991723DF85616D4D48 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		751B98D72D3F397A3515EC523A1F89B0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				177E5235A01885AACBD0156E4FCDB085 /* QinzTool */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -159,39 +194,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C68B7887141CCE92579CC2945A4DF223 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A539FDD6FCEB1378AE152659DE6B3F37 /* GGXMaskView.modulemap */,
-				F93FAC3F7AE2F296ED5892C0F2B135EB /* GGXMaskView-dummy.m */,
-				2C9CAE1ECC2DF0537491026DC0892AC6 /* GGXMaskView-Info.plist */,
-				9DA0EF822505D3937FBA3B7A07826B4E /* GGXMaskView-prefix.pch */,
-				CFA1B5B8C3857E0F91C30671E2AC7D10 /* GGXMaskView-umbrella.h */,
-				8B1BB51D5B55087552650D74F0666E99 /* GGXMaskView.debug.xcconfig */,
-				A36E96E9DB587495ACEBC37B5AB5C58D /* GGXMaskView.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/GGXMaskView";
-			sourceTree = "<group>";
-		};
-		CEAF3600B7B4CB9E677A426663C68C57 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				809339847EDBB4AB8DE680E0A898DAEB /* GGXMaskView.framework */,
-				41812BBE5935F4DD84E64831077F6423 /* Pods_GGXMaskView_Example.framework */,
-				13A01061B7E47D82626727E0F64D6ED1 /* Pods_GGXMaskView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AE7248BA4A7A4CFB06CD940F5CDEF973 /* Development Pods */,
+				751B98D72D3F397A3515EC523A1F89B0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				CEAF3600B7B4CB9E677A426663C68C57 /* Products */,
-				42E977DBF913F05543CD71B14FDAC0F6 /* Targets Support Files */,
+				3982F814B5CA285A3C6E5196EC1DCD11 /* Products */,
+				3721A6AAEC3BAFACC8B0A6013F1CBD56 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,117 +213,107 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DD45351078617BB11DAFE4639A6380E8 /* Pod */ = {
+		E6CF9AC62E6333B49812DC2D58E79A83 /* Pods-QinzTool_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B64132283982DEA68A9A380FE70F6B19 /* GGXMaskView.podspec */,
-				7FD64E369B95BB89FD9A6BFD9AC48C5B /* LICENSE */,
-				530BB7247E5235DA3C97EC0E090DC20F /* README.md */,
+				1A12A204A849AB0E7A610A3C9BE8A8F7 /* Pods-QinzTool_Tests.modulemap */,
+				E09AD755ACC0BF439D75AB9CFE0DD864 /* Pods-QinzTool_Tests-acknowledgements.markdown */,
+				E5E34EF7AED9122D1856B6381538C67C /* Pods-QinzTool_Tests-acknowledgements.plist */,
+				8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */,
+				A3676678F1051D9A3E2013349684CC5D /* Pods-QinzTool_Tests-Info.plist */,
+				24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */,
+				3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */,
+				70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		F24E59691E1FD04056643456AF88BD95 /* Pods-GGXMaskView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				E28AC23FDD47401E4CD230CF3AF14E5C /* Pods-GGXMaskView_Tests.modulemap */,
-				0603804C20F52D2A1D53D61B667CAF93 /* Pods-GGXMaskView_Tests-acknowledgements.markdown */,
-				F8CA2B0066A9E64EB277D45D87AEFF92 /* Pods-GGXMaskView_Tests-acknowledgements.plist */,
-				C7226DD9A79C7483633462AC85EC5FC1 /* Pods-GGXMaskView_Tests-dummy.m */,
-				948FB396F4426A6AC61DCDD5F8480790 /* Pods-GGXMaskView_Tests-Info.plist */,
-				6B318D6068733690498551567EDCB844 /* Pods-GGXMaskView_Tests-umbrella.h */,
-				CF8D1577167955CC630EA636B9A93AE6 /* Pods-GGXMaskView_Tests.debug.xcconfig */,
-				DA59FA8DEB0938FE81857380D5F3A6C1 /* Pods-GGXMaskView_Tests.release.xcconfig */,
-			);
-			name = "Pods-GGXMaskView_Tests";
-			path = "Target Support Files/Pods-GGXMaskView_Tests";
+			name = "Pods-QinzTool_Tests";
+			path = "Target Support Files/Pods-QinzTool_Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		53EBF1AD1BF27A21439D2427681B3910 /* Headers */ = {
+		5C2D9082DAEFD49E25E5D93BD9269E80 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C75B747F9972920211B2C31DF287DEF /* GGXMaskView-umbrella.h in Headers */,
-				FFA7E74D24519E1C00C32292 /* RRCMaskView.h in Headers */,
+				D3C66337A40D66C57A98681414484512 /* QinzTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		89446CDC516278C59D492CCFDAB56173 /* Headers */ = {
+		99D3A2F8634AD0A10DE532270E3C7662 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D97FF80D1DFF4159CCBB388FCB24BD9 /* Pods-GGXMaskView_Tests-umbrella.h in Headers */,
+				07D887EB1D273FEC3369BDB04DE14B59 /* Pods-QinzTool_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C39FD789354AD55074BB6843069D2F6E /* Headers */ = {
+		F18061CA2C651A4E8C00E6FBDEF17080 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49482DCF98C304AEF3663A28E030304D /* Pods-GGXMaskView_Example-umbrella.h in Headers */,
+				4B91EB7BB7E4D1806285F444DC2D0083 /* Pods-QinzTool_Example-umbrella.h in Headers */,
+				FFA7E7502451A87600C32292 /* RRCMaskView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		580D35F845EDE1C4993BC9837BF0678D /* Pods-GGXMaskView_Tests */ = {
+		1323B0BFCF8CF7D8BD553D113A404386 /* Pods-QinzTool_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6945BA8381A35F1ABA895E8D45F9A63 /* Build configuration list for PBXNativeTarget "Pods-GGXMaskView_Tests" */;
+			buildConfigurationList = 64DC069366646A0D8165286107FE3370 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */;
 			buildPhases = (
-				89446CDC516278C59D492CCFDAB56173 /* Headers */,
-				984CD7BE86463022574F0C20DBB25B21 /* Sources */,
-				4B213FDBCD723203C06520EED8AE6D2C /* Frameworks */,
-				C4885F4A6223FD3E42DBEFC8F5176AB4 /* Resources */,
+				99D3A2F8634AD0A10DE532270E3C7662 /* Headers */,
+				E6E3F47D6ADF0182D33C87EF95922F88 /* Sources */,
+				4EF65A906C22DE445E2837065E773ACD /* Frameworks */,
+				17CB724A760108A893C8CAE6D04F8A90 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5C49027FE91501F6B15C07B807F36E14 /* PBXTargetDependency */,
+				1930FD90EDB3C42974702ED740D242C8 /* PBXTargetDependency */,
 			);
-			name = "Pods-GGXMaskView_Tests";
-			productName = "Pods-GGXMaskView_Tests";
-			productReference = 13A01061B7E47D82626727E0F64D6ED1 /* Pods_GGXMaskView_Tests.framework */;
+			name = "Pods-QinzTool_Tests";
+			productName = "Pods-QinzTool_Tests";
+			productReference = EBF92A934CD190C78866B28B20FFD4BB /* Pods_QinzTool_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		762A94AEA5F026E0BE71C96D7AEB6049 /* GGXMaskView */ = {
+		B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9322C942E3B4B3044DCFDAA7BCE8B98B /* Build configuration list for PBXNativeTarget "GGXMaskView" */;
+			buildConfigurationList = 06CC5E2DA91CF0BDC02354BBA4EB7128 /* Build configuration list for PBXNativeTarget "QinzTool" */;
 			buildPhases = (
-				53EBF1AD1BF27A21439D2427681B3910 /* Headers */,
-				12FF9283C1C4BED4A70DA7F1937F9A0B /* Sources */,
-				B621C3DB2FBD6E73A0F6CAAF78DECFD6 /* Frameworks */,
-				686F4329990445FDFB39E763C6D956F0 /* Resources */,
+				5C2D9082DAEFD49E25E5D93BD9269E80 /* Headers */,
+				55471612D85AF57F7A4EC0B5F003AFC1 /* Sources */,
+				1E7ABABEC38452FC13D444244B3686F3 /* Frameworks */,
+				171DD834C958ED9DB35636DCE7C668B5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GGXMaskView;
-			productName = GGXMaskView;
-			productReference = 809339847EDBB4AB8DE680E0A898DAEB /* GGXMaskView.framework */;
+			name = QinzTool;
+			productName = QinzTool;
+			productReference = 528FBE9B9264019AE3EF96E47D10A13B /* QinzTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FC7E80A6DC2430E28C55B6FE008EB73F /* Pods-GGXMaskView_Example */ = {
+		F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DC58E570959A622A8D35EEE24EFEE673 /* Build configuration list for PBXNativeTarget "Pods-GGXMaskView_Example" */;
+			buildConfigurationList = 3FBD31B5D1AA75FFA7EF4672A4E36F97 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */;
 			buildPhases = (
-				C39FD789354AD55074BB6843069D2F6E /* Headers */,
-				A609FBA020BAD1252D29508433AD149E /* Sources */,
-				25F644B32D4701B7B22F521FD3EC16EB /* Frameworks */,
-				5CDFBC3DD6B1739D43E326E84375E7B9 /* Resources */,
+				F18061CA2C651A4E8C00E6FBDEF17080 /* Headers */,
+				51246FC55D130A7A6A8497C6DEDF3934 /* Sources */,
+				2FD1E4D70C79F26F37D7CC263F0E4D64 /* Frameworks */,
+				33E8E8FE39D4CB5A2B29D6357C47D3CE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C38AE38AC56C27E1D63B030FBCDCF1D /* PBXTargetDependency */,
+				D9B98C93BEBFBE07E3F216A4BDF932F8 /* PBXTargetDependency */,
 			);
-			name = "Pods-GGXMaskView_Example";
-			productName = "Pods-GGXMaskView_Example";
-			productReference = 41812BBE5935F4DD84E64831077F6423 /* Pods_GGXMaskView_Example.framework */;
+			name = "Pods-QinzTool_Example";
+			productName = "Pods-QinzTool_Example";
+			productReference = D14EB5BFF24B3A565DA1391A34DCC10B /* Pods_QinzTool_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -334,33 +334,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = CEAF3600B7B4CB9E677A426663C68C57 /* Products */;
+			productRefGroup = 3982F814B5CA285A3C6E5196EC1DCD11 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				762A94AEA5F026E0BE71C96D7AEB6049 /* GGXMaskView */,
-				FC7E80A6DC2430E28C55B6FE008EB73F /* Pods-GGXMaskView_Example */,
-				580D35F845EDE1C4993BC9837BF0678D /* Pods-GGXMaskView_Tests */,
+				F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */,
+				1323B0BFCF8CF7D8BD553D113A404386 /* Pods-QinzTool_Tests */,
+				B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5CDFBC3DD6B1739D43E326E84375E7B9 /* Resources */ = {
+		171DD834C958ED9DB35636DCE7C668B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		686F4329990445FDFB39E763C6D956F0 /* Resources */ = {
+		17CB724A760108A893C8CAE6D04F8A90 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4885F4A6223FD3E42DBEFC8F5176AB4 /* Resources */ = {
+		33E8E8FE39D4CB5A2B29D6357C47D3CE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,116 +370,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12FF9283C1C4BED4A70DA7F1937F9A0B /* Sources */ = {
+		51246FC55D130A7A6A8497C6DEDF3934 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CA8FB2A5E6FFBC0F4089D2DFCCBC8034 /* GGXMaskView-dummy.m in Sources */,
-				FFA7E74C24519E1C00C32292 /* RRCMaskView.m in Sources */,
-				6F46265A766759912CB4B51724BF6AE7 /* ReplaceMe.m in Sources */,
+				FFA7E7512451A87600C32292 /* RRCMaskView.m in Sources */,
+				A4238E4872154B8C8D5715E4EF887FA7 /* Pods-QinzTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		984CD7BE86463022574F0C20DBB25B21 /* Sources */ = {
+		55471612D85AF57F7A4EC0B5F003AFC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E67CE7DFA03F81045B442FC2AC37DF83 /* Pods-GGXMaskView_Tests-dummy.m in Sources */,
+				2A9E20F9B47335D923C8CB2D7E77CE17 /* QinzTool-dummy.m in Sources */,
+				AEA7D761C6702A5809B8974F8BD598B4 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A609FBA020BAD1252D29508433AD149E /* Sources */ = {
+		E6E3F47D6ADF0182D33C87EF95922F88 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				788711F6DC3E1ABFDC4611779C1AA86C /* Pods-GGXMaskView_Example-dummy.m in Sources */,
+				E040ED9C44D0F1AD6841C888B43E749C /* Pods-QinzTool_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5C49027FE91501F6B15C07B807F36E14 /* PBXTargetDependency */ = {
+		1930FD90EDB3C42974702ED740D242C8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-GGXMaskView_Example";
-			target = FC7E80A6DC2430E28C55B6FE008EB73F /* Pods-GGXMaskView_Example */;
-			targetProxy = 0095DA823737D06FEF4447565E616BFA /* PBXContainerItemProxy */;
+			name = "Pods-QinzTool_Example";
+			target = F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */;
+			targetProxy = 095B300FC06B4C1FD5BBC686E95CD48F /* PBXContainerItemProxy */;
 		};
-		9C38AE38AC56C27E1D63B030FBCDCF1D /* PBXTargetDependency */ = {
+		D9B98C93BEBFBE07E3F216A4BDF932F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = GGXMaskView;
-			target = 762A94AEA5F026E0BE71C96D7AEB6049 /* GGXMaskView */;
-			targetProxy = A4471DFF8A80F83020230828D1000AED /* PBXContainerItemProxy */;
+			name = QinzTool;
+			target = B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */;
+			targetProxy = 99DD9D9DFD81C45837396A91B4B4FF9C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		161141A177E854D96103CFE099A7EE51 /* Debug */ = {
+		31BBF1E36D4BC9477237D534C68810A8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B1BB51D5B55087552650D74F0666E99 /* GGXMaskView.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGXMaskView/GGXMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGXMaskView/GGXMaskView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGXMaskView/GGXMaskView.modulemap";
-				PRODUCT_MODULE_NAME = GGXMaskView;
-				PRODUCT_NAME = GGXMaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2FDE59017B9D587C66DB9B2CE6146242 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36E96E9DB587495ACEBC37B5AB5C58D /* GGXMaskView.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGXMaskView/GGXMaskView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGXMaskView/GGXMaskView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGXMaskView/GGXMaskView.modulemap";
-				PRODUCT_MODULE_NAME = GGXMaskView;
-				PRODUCT_NAME = GGXMaskView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4186AD13F93895436FA772311027F981 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA59FA8DEB0938FE81857380D5F3A6C1 /* Pods-GGXMaskView_Tests.release.xcconfig */;
+			baseConfigurationReference = C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -491,12 +428,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GGXMaskView_Tests/Pods-GGXMaskView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGXMaskView_Tests/Pods-GGXMaskView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -510,6 +447,39 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		4764BDC62257FC555FD029B534DA04A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -567,73 +537,6 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		5A45D9AFA212864292CC5A74CB4CCA50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1B66F562B14075F2A3199E65FB2AFC08 /* Pods-GGXMaskView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GGXMaskView_Example/Pods-GGXMaskView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGXMaskView_Example/Pods-GGXMaskView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		690C8D676F741B4E7C2B2F0946CEBC55 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E75C5CDE7F2ACECE3DB0CFA11B6886CE /* Pods-GGXMaskView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GGXMaskView_Example/Pods-GGXMaskView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGXMaskView_Example/Pods-GGXMaskView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -701,9 +604,9 @@
 			};
 			name = Debug;
 		};
-		EFF50BAD8104E7A412121747E726D271 /* Debug */ = {
+		9A20F81BCA5C9A96183CF88E7682981F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF8D1577167955CC630EA636B9A93AE6 /* Pods-GGXMaskView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -715,12 +618,109 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GGXMaskView_Tests/Pods-GGXMaskView_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GGXMaskView_Tests/Pods-GGXMaskView_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9F8E773091B0A6C067F76C97198C79C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FD0BA05EA48A0BCB806288B5B32BBF /* QinzTool.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QinzTool/QinzTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/QinzTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QinzTool/QinzTool.modulemap";
+				PRODUCT_MODULE_NAME = QinzTool;
+				PRODUCT_NAME = QinzTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B26D5DE5B147CDB8DEA4546300FAEC4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B503A1706E53BCA70F203615B8226EF /* QinzTool.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QinzTool/QinzTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/QinzTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QinzTool/QinzTool.modulemap";
+				PRODUCT_MODULE_NAME = QinzTool;
+				PRODUCT_NAME = QinzTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD3302F24EF77DF0C424E8D27F05963E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -737,6 +737,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		06CC5E2DA91CF0BDC02354BBA4EB7128 /* Build configuration list for PBXNativeTarget "QinzTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B26D5DE5B147CDB8DEA4546300FAEC4F /* Debug */,
+				9F8E773091B0A6C067F76C97198C79C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FBD31B5D1AA75FFA7EF4672A4E36F97 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4764BDC62257FC555FD029B534DA04A6 /* Debug */,
+				31BBF1E36D4BC9477237D534C68810A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -746,29 +764,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9322C942E3B4B3044DCFDAA7BCE8B98B /* Build configuration list for PBXNativeTarget "GGXMaskView" */ = {
+		64DC069366646A0D8165286107FE3370 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				161141A177E854D96103CFE099A7EE51 /* Debug */,
-				2FDE59017B9D587C66DB9B2CE6146242 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C6945BA8381A35F1ABA895E8D45F9A63 /* Build configuration list for PBXNativeTarget "Pods-GGXMaskView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EFF50BAD8104E7A412121747E726D271 /* Debug */,
-				4186AD13F93895436FA772311027F981 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DC58E570959A622A8D35EEE24EFEE673 /* Build configuration list for PBXNativeTarget "Pods-GGXMaskView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A45D9AFA212864292CC5A74CB4CCA50 /* Debug */,
-				690C8D676F741B4E7C2B2F0946CEBC55 /* Release */,
+				BD3302F24EF77DF0C424E8D27F05963E /* Debug */,
+				9A20F81BCA5C9A96183CF88E7682981F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

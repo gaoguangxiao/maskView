@@ -1,6 +1,0 @@
-framework module Pods_GGXMaskView_Tests {
-  umbrella header "Pods-GGXMaskView_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
